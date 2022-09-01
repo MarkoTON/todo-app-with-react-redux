@@ -1,5 +1,7 @@
 import { Box, Checkbox, Text } from '@chakra-ui/react'
+//react
 import { useEffect, useState } from 'react'
+//redux
 import { useDispatch } from 'react-redux';
 import { toggleTodo } from '../redux/actions';
 
