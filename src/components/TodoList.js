@@ -1,4 +1,5 @@
 import { Box } from "@chakra-ui/react"
+//redux
 import { useSelector } from "react-redux";
 import { getTodosByVisibilityFilter } from "../redux/selector";
 import { Todo } from "./Todo";
