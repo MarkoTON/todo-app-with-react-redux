@@ -8,6 +8,8 @@ const todos = (state = initialState, action) => {
   // console.log(state)
   switch(action.type) {
     case ADD_TODO: {
+      console.log(action)
+      console.log(action.payload)
       const { id, content } = action.payload;
       let kkk = state.todos
       console.log(kkk)

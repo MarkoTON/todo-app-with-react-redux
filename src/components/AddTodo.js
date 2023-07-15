@@ -11,6 +11,7 @@ export const AddTodo = () => {
     e.preventDefault();
     dispatch(addTodo(value));
     setValue('');
+    // document.getElementById("addTodo").focus()
   }
 
   const handleInput = e => {
